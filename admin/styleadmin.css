@@ -1,0 +1,282 @@
+@charset "utf-8";
+/*RESETE*/
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	text-decoration:none;
+	font:14px Verdana, Geneva, sans-serif;
+}
+/*Pagina de Login*/
+body{
+	background:#EBEBEB;
+}
+.ok{
+	background:#DFFFBF;
+	border:1px solid #80FF00;
+	padding:5px;
+	font:16px Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	margin:5px 0;
+}
+.no{
+	background:#FBB;
+	border:1px solid #F00;
+	padding:5px;
+	font:16px Verdana, Geneva, sans-serif;
+	font-weight:bold;
+}
+#login{
+	width:310px;
+	height:200px;
+	margin:100px auto;
+	border:3px solid #666;
+	background:#CCC;
+	padding:10px;
+	display:block;
+}
+#login form{
+	float:left;
+}
+#login fieldset{
+	border:0;
+}
+#login legend{
+	width:300px;
+	font:20px Verdana, Geneva, sans-serif;
+	color:#000;
+	font-weight:bold;
+	border:2px solid #03C;
+	background:#A8A8FF;
+	margin-bottom:5px;
+}
+#login span{
+	display:block;
+	margin:5px 0;
+}
+#login input{
+	width:300px;
+	padding:3px;
+	border:1px solid #03C;
+}
+#login .login_btn{
+	width:100px;
+	display:block;
+	margin:5px 5px;
+}
+#login img{
+	float:right;
+}
+/*Painel*/
+#header{
+	background:url(../images/backgroundadmin.png);
+	position:relative;
+}
+#header_content{
+	width:1000px;
+	margin:10px auto 1px auto;
+}
+#header_content span{
+	float:right;
+	font:26px Verdana, Geneva, sans-serif;
+	color:#29166F;
+	margin-right:250px;
+	border:0;
+}
+#box_content{
+	width:1000px;
+	margin:0 auto;
+}
+#sidebar{
+	width:180px;
+	float:left;
+	background-color: #29166F;
+}
+#sidebar ul{
+	float:left;
+	list-style:none;
+	position:relative;
+	background-color:#29166F;
+}
+#sidebar ul li a{
+	width:180px;
+	padding:5px 0 5px 2px;
+	float:left;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+#sidebar ul li a:hover{
+	background:#EBEBEB;
+	color:#4345FF;
+}
+#sidebar ul ul{
+	display:none;
+}
+#sidebar ul li:hover ul{
+	display:block;
+	position:absolute;
+	left:182px;
+	z-index:10;
+}
+#sidebar ul li:hover .posts{
+	display:block;
+	position:absolute;
+	left:182px;
+	top:25px;
+}
+#sidebar ul li:hover .manuais{
+	display:block;
+	position:absolute;
+	left:182px;
+	top:79px;
+}
+#sidebar ul li:hover .conce{
+	display:block;
+	position:absolute;
+	left:182px;
+	top:135px;
+}
+#conteudo{
+	float:left;
+	width:auto;
+	margin:5px 10px;
+	padding:3px;
+	border:1px solid #000;
+	background:#DBDBDB;
+}
+#conteudo h1{
+	font:24px Verdana, Geneva, sans-serif;
+	color:#29166F;
+	border-bottom:2px solid #29166F;
+	margin-bottom:5px;
+}
+#conteudo strong{
+	font:18px Verdana, Geneva, sans-serif;
+	color:#F00;
+}
+#conteudo .titu{
+	border-bottom:none;
+	font-weight:bold;
+}
+#conteudo form{
+	width:480px;
+	padding:10px;
+}
+#conteudo fieldset{
+	border:0;
+}
+#conteudo span{
+	display:block;
+	font:14px Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#333;
+	margin:5px 0;
+}
+#conteudo input{
+	width:445px;
+	padding:3px 5px;
+	background:#f4f4f4;
+	border:1px solid #333;
+}
+#conteudo select{
+	width:455px;
+	padding:3px 5px;
+	background:#f4f4f4;
+	border:1px solid #333;
+}
+#conteudo .lista_posts{
+	width:auto;
+	height:auto;
+	margin:0;
+	padding:2px;
+}
+#conteudo .editar_btn{
+	width:auto;
+	margin:0;
+	padding:2px;
+	border:0;
+	color:#006699;
+	background:none;
+	cursor:pointer;
+}
+#conteudo .editar_btn:hover{
+	color:#0080FF;
+}
+#conteudo .excluir_btn{
+	width:auto;
+	margin:0;
+	padding:2px;
+	border:0;
+	color:#FF1515;
+	background:none;
+	cursor:pointer;
+}
+#conteudo .excluir_btn:hover{
+	color:#900;
+}
+
+#conteudo .novo_btn{	
+	color:#0575FE;
+	border:1px solid #000;
+	padding:1px 50px;
+	position:relative;
+	left:0px;
+	bottom:2px;
+	font-weight:bold;
+}
+#conteudo .novo_btn:hover{
+	background:#29166F;
+	color:#fff;
+	z-index:1;
+}
+body#tinymce.mceContentBody{
+	background:#FFF;
+	padding:5px 15px;
+}
+table#texto_titulo_tbl.mceLayout{
+	height:500px;
+}
+#conteudo .pad_td{
+	padding:2px;
+}
+#conteudo .cadastrar_btn{
+	display:block;
+	width:100px;
+	margin:10px auto;
+}
+#conteudo .cadastrar_btn:hover{
+	background:#000000;
+	color:#f4f4f4;
+	cursor:pointer;
+}
+#field_arquivo{
+	border:2px solid #29166F;
+	padding:5px;
+	margin:2px 0;
+}
+.tabela{
+	font:14px Verdana, Geneva, sans-serif;
+	color:#29166F;
+}
+.paginator{
+	color:#29166F;
+	margin:5px 0;
+}
+.paginator a{
+	color:#29166F;
+	margin:5px 0;
+	border:1px solid #29166F;
+	text-decoration:none;
+	font-weight:bold;
+	padding:2px;
+}
+.paginator a:hover{
+	background:#29166F;
+	color:#fff;
+}
+#footeradmin{
+	height:50px;
+	margin:0 auto;
+	background:#ccc;
+	clear:both;
+}

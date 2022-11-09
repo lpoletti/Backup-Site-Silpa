@@ -1,0 +1,149 @@
+﻿@charset "utf-8";#0626C6
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	border:0;
+}
+img{
+        text-decoration:none;
+	border:0;
+}
+.alignright{float:right; margin:0 5px 10px 0;}
+.subtitulo{font:Verdana, Geneva, sans-serif; color:#fff; margin:2px 6px; padding-left:25px; background:url(images/subtitulos.jpg) 0 0 no-repeat;}
+body{
+	width:100%;
+    height:100%;
+	background:#FFF;
+	z-index:0;
+	background-attachment:fixed;
+}
+#box{width:1000px; margin:3px auto; font:Verdana, Geneva, sans-serif;}
+#header{float:left;}
+#header a{margin:0; padding:0;}
+#header a img{text-decoration:none; border:0px;}
+#menu{width:960px; height:40px; background:#5C5C5C; float:left;}
+#menu ul{margin:0 0 0 15px; padding:0; float:left; list-style:none;}
+#menu ul li{display:inline; background:#5C5C5C; position:relative;  float:left; z-index:7;}
+#menu ul li:hover ul{display:block; float:left;}
+#menu ul li a{height:100%; text-decoration:none; float:left; padding:11px 8px 6px 8px; color:#FFFFFF; font:16px Verdana, Geneva, sans-serif; border-bottom:3px solid #5C5C5C; text-shadow:1px 1px 3px #0626C6;}
+#menu ul li img{float:left; margin-right:5px;}
+#menu ul li a:hover{background:#0626C6; border-bottom-color:#fff; box-shadow:0px 2px 3px #000; transition:all 400ms ease-in-out 0s; -webkit-transition:all 400ms ease-in-out 0s; -moz-transition:all 400ms ease-in-out 0s;}
+#menu ul li ul{position:absolute; top:40px; display:none; left:-20px;}
+#menu ul li ul li{border-radius:10px;}
+#menu ul li ul li a{width:200px; padding:11px 8px 9px 8px; border-right:5px solid #5C5C5C; border-bottom-right-radius:10px; border-top-right-radius:10px; border-bottom:none; transition:none; -webkit-transition:none;}
+#menu ul li ul li a:hover{border-bottom:none; border-right:5px solid #fff; border-radius:10px; box-shadow:none; transition:none; -webkit-transition:none; -moz-transition:none;}
+#menu ul li ul li img{float:left;}
+#menu ul li ul li p{float:left; margin-left:5px; margin-top:5px;}
+#menu form{float:right; padding:7px 10px 0 0;}
+#menu input{width:150px; height:24px;}
+#menu .search_btn{width:60px; height:29px; background:#0626C6; border:1px solid #000; font:16px Verdana, Geneva, sans-serif; color:#FFFFFF;}
+#menu .search_btn:hover{background:#fff; color:#0626C6; cursor:pointer;}
+#content{width:960px; float:left; background:#E0E0E0;}
+#destaque_mae{float:left; width:960px; height:380px; margin:10px 0 0 23px;}
+#destaque{width:960px; float:left; z-index:-1;}
+#destaque a{text-decoration:none; border:0;}
+#destaque ul{list-style:none;}
+#destaque ul li a img{text-decoration:none; border-bottom:1px solid #0626C6; border-left:1px solid #0626C6; border-top:1px solid #0626C6; position:relative;}
+#sobre{width:400px; height:375px; background:#999; float:right; margin:0; border-bottom:1px solid #0626C6; border-top:1px solid #0626C6; border-right:1px solid #0626C6; border-left:1px solid #0626C6; overflow:hidden;}
+#sobre ul{height:260px; border-radius:10px; padding:6px; margin:10px 5px;}
+#sobre ul li a{color:#FFF;}
+#sobre ul li h3{font:20px Verdana, Geneva, sans-serif; color:#000; text-decoration:underline; font-weight:bold;}
+#sobre ul li p{/*font:Verdana, Geneva, sans-serif; color:#fff; margin-bottom:0px; text-shadow:0px 1px 1px #0626C6;*/}
+#leia_mais{position:absolute; top:350px; left:800px; color:#0626C6; text-shadow:1px 1px 10px #FFFFFF; font-weight:bold;}
+#nav{margin:-22px 0 0 350px; position:absolute; top:auto; left:auto; z-index:50;}
+#nav a { margin: 0 5px; padding: 3px 5px; background:#0626C6; text-decoration: none; color:#fff;}
+#nav a.activeSlide {background:#E0E0E0; color:#0626C6;}
+#nav a:focus { outline: none; }
+#news{width:920px; height:525px; margin:5px 20px 0 20px; float:left;}
+#lanc_empresa{ height:191px; float:left;}
+#lanc_empresa ul{list-style:none;}
+#lanc_empresa ul li{display:inline-block; margin:3px 9px 3px 12px; padding:2px 2px 0px 2px; border-bottom:2px solid #E0E0E0; background:#E0E0E0; position:relative;}
+#lanc_empresa ul li:hover{border-bottom:2px solid #0626C6;}
+#lanc_empresa ul li p{width:200px; position:absolute; top:0px; background:#0626C6; opacity:0.6; display:none; text-align:center; height:100px; padding-top:50px;}
+#lanc_empresa ul li:hover p{display:block;}
+#lanc_empresa ul li a{color:#FFF; text-decoration:underline;}
+#company{width:600px; float:left;}
+#company p{margin:5px 0 0 8px; font:12px Verdana, Geneva, sans-serif; color:#000000; text-align:justify;}
+#company img{margin:5px 6px 0 8px;}
+#noticias{width:300px; height:410px; float:right; margin-right:8px;}
+#noticias ul{list-style:none;}
+#noticias ul li{margin:4px 0 0 6px; border-bottom:2px solid #666666; float:left; height:84px;}
+#noticias ul li:hover{background:#CCC;}
+#noticias ul li a{text-decoration:none; font:12px Verdana, Geneva, sans-serif; color:#000000;}
+#noticias ul li a span{font-weight:bold; text-transform:uppercase;}
+#noticias ul li a p{margin-bottom:0;}
+#noticias ul li:hover span{text-decoration:underline;}
+#noticias ul li:hover a{text-decoration:underline;}
+#noticias ul li:hover span{text-decoration:underline; color:#0626C6;}
+#noticias ul li b{font:9px Verdana, Geneva, sans-serif;}
+#down{width:300px; height:80px; float:left;}
+#down h2{color:#FFF;}
+#down a{float:left; color:#FF0000; font:16px Verdana, Geneva, sans-serif; margin-left:3px; padding:3px;}
+#down a:hover{color:#fff; text-shadow:1px 1px 2px #FF0000; text-decoration:underline;}
+#down img{float:left; padding:2px;}
+#clear{clear:both;}
+#footer{width:960px; height:135px; background:#5C5C5C;}
+#footer_login{height:135px; font:16px Tahoma, Geneva, sans-serif; color:#fff; font-weight:bold; width:450px; float:left; border-right:3px solid #0626C6;}
+#footer_login table{padding:15px 0 0 30px;}
+#footer_login input{padding:0px;width:160px;border:1px solid #fff;background:#666;font:16px Tahoma, Geneva, sans-serif; color:#fff;}
+#footer_login .btn_login{height:60px;width:70px;background:#0626C6;font:20px Tahoma, Geneva, sans-serif; color:#fff;cursor:pointer;font-weight:bold;}
+#footer_login .btn_login:hover{background:#333;color:#fff;}
+#footer p{padding:25px 0 0 480px; font:16px Verdana, Geneva, sans-serif; color:#fff; text-align:center;}
+#footer a{text-decoration:none; color:#fff;}
+#footer a:hover{text-decoration:underline;}
+#copy{width:960px; height:40px; background:#666; color:#fff;}
+#copy p{float:left; margin-left:5px;}
+#copy span{float:right; margin-right:5px;}
+#page_content{float:left;width:960px;height:100%;}
+#page{float:left;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333; margin:10px 20px 0 35px; width:900px;}
+#page a{text-decoration:none;font:14px Georgia, "Times New Roman", Times, serif;color:#0626C6;font-weight:bold;}
+#page a:hover{color:#0626C6;}
+#page h1{width:900px; font:20px Tahoma, Geneva, sans-serif;text-transform:uppercase;text-shadow:1px 1px 3px #333;color:#0626C6;border-bottom:3px solid #0626C6;margin-bottom:5px;padding-bottom:3px;}
+#page b{font:20px Tahoma, Geneva, sans-serif;text-transform:uppercase;text-shadow:1px 1px 3px #333; color:#0626C6;text-decoration:underline; border-bottom:3px; padding-bottom:3px;}
+#page blockquote{margin:15px 30px;border-left:5px solid #0626C6;padding:0 5px;background:#f4f4f4;}
+#page form{width:500px;padding:10px;background:#f4f4f4;display:block;margin:10px auto; float:left;}
+#page fieldset{border:0;}
+#page legend{font:20px Tahoma, Geneva, sans-serif;text-transform:uppercase;text-shadow:1px 1px 3px #333;color:#0626C6;}
+#page label{margin:10px 0;font:16px Georgia, "Times New Roman", Times, serif;color:#333;font-weight:bold;display:block;}
+#page input{padding:3px;border:2px solid #0626C6;background:#333;font:18px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#fff;width:494px;display:block;margin:5px 0;}
+#page textarea{padding:3px;border:2px solid #0626C6;background:#333;font:18px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#fff;width:494px;display:block;margin:5px 0;}
+#page .contato_btn{width:150px;display:block;margin:0 auto;}
+#page .contato_btn:hover{background:#333;border:2px solid #f4f4f4;cursor:pointer;}
+#page .marg{
+	margin:10px 0;
+}
+#page .desc{margin:5px 0; display:block; width:520px;}
+#social{float:right; margin-top:8px; margin-right:5px;}
+#social a{padding:5px; margin:0px 20px 0 0;}
+#produtos{width:250px; height:250px; display:inline-block; margin:5px 22px; border:1px solid #0626C6; float:left;}
+#produtos a{color:#000;}
+#produtos a:hover p{color:#0626C6; }
+#produtos a:hover span{border:1px solid #ccc; background:#0626C6; color:#fff;}
+#produtos p{text-align:center; margin:15px 0;}
+#produtos span{border-radius:10px; border:1px solid #0626C6; margin:0 0 0 50px; padding:2px; background:#ccc;}
+#produtos img{float:left; margin:5px 25px;}
+#pesquisa{width:800px; height:110px;}
+#pesquisa p{float:left; margin:5px 0 5px 10px; padding-right:5px;}
+#pesquisa img{margin-right:5px;}
+#produtos_single{float:left; width:520px; margin:5px 0;}
+#produtos_single span a{color:#000; transition:none; -webkit-transition:none; -moz-transition:none;}
+#produtos_single span a:hover{color:#000; transition:none; -webkit-transition:none; -moz-transition:none; text-shadow:2px 2px 3px #333;}
+#representantes{width:800px; margin:10px 30px;}
+#representantes a{color:#00F; font-weight:bold;}
+#representantes a:hover{text-decoration:underline;}
+#representantes h3{font:16px Verdana, Geneva, sans-serif; color:#0626C6; font-weight:bold; margin-top:15px;}
+#representantes p{font-weight:normal; border-bottom:2px solid #999;}
+#representantes p a{color:#000000;}
+#list_manuais{float:left;}
+#list_manuais ul{list-style:none; padding:5px; float:left; background:#E0E0E0;}
+#list_manuais ul li{position:relative; display:block; width:270px; padding:5px 0; background:url(images/icones/seta.png) no-repeat scroll 250px;}
+#list_manuais ul li:hover{background-image:url(images/icones/seta.png) no-repeat scroll 250px; background-color:#CCC;}
+#list_manuais ul li:hover a{color:#0626C6;}
+#list_manuais ul li a{color:#000;}
+#list_manuais ul li ul{display:none; position:absolute; float:left; width:350px; padding:0px 0;  border-radius:5px;}
+#list_manuais ul li:hover ul{display:block; top:0px; left:265px; background:#FFF; z-index:10; border-top:2px solid #0626C6;}
+#list_manuais ul li ul li{float:left; background:none; width:350px; border-radius:5px;}
+#list_manuais ul li ul li a{font:12px Verdana, Geneva, sans-serif; text-shadow:none; padding:2px; float:left; background:none; width:350px; border-radius:5px;}
+#list_manuais ul li ul li:hover{background:#666666;}
+#list_manuais ul li ul li:hover a{color:#fff; animation::none; -webkit-animation:none; -moz-animation:none; -ms-animation:none;}		

@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteRule ^([^/]*)\.html$ http://teste.lpinfo.com.br/index.php?topicos=$1 [L]
+RewriteRule index-topicos-(.*)\.html$ index.php?topicos=$1
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+Options All -Indexes

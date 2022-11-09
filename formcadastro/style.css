@@ -1,0 +1,100 @@
+*{
+	padding:0;
+	margin:0;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#ok{
+	width:100%;
+	background:#9DFF9D;
+	border:3px solid #0F0;
+	text-align:center;
+	font-weight:bold;
+	font-size:18px;
+	margin-bottom:10px;
+}
+#no{
+	width:100%;
+	background:#FF8A8A;
+	border:3px solid #F00;
+	text-align:center;
+	font-weight:bold;
+	font-size:18px;
+	margin-bottom:10px;	
+}
+.subtitulo{
+	background-color:#999999;
+	font-weight:bold;
+}
+.subsub{
+	text-decoration:underline;
+	font-weight:bold;
+}
+#content{
+	width:950px;
+	margin:0 auto;
+}
+#content h2{
+	text-align:center;
+}
+select#tipo_de_cadastro{
+	display:block;
+	margin-left: 330px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	background-color:#0626C6;
+	color:#FFF;
+	font-size:20px;
+}
+.cadastro table{
+	padding:10px;
+	border-spacing:0;
+}
+.cadastro table tr{
+}
+.cadastro table tr td{
+	min-width:50px;;
+	border:1px solid #000000;
+	padding:3px;
+}
+.cadastro table tr td input[type="text"]{
+	border:none;
+	background:#E8E8E8;
+	float:left;
+	width:95%;
+}
+.cadastro table tr td #estado{
+	background:#CCCCCC;
+}
+.cadastro table tr td #declaracao{
+	width:500px;
+	text-align:justify;
+	border:1px solid #000000;
+	padding:5px 10px;
+}
+.cadastro table tr td #declaracao h3{
+	text-align:center;
+	margin-bottom:5px;
+	color:#FF0000;
+}
+.cadastro table tr td #declaracao b{
+	display:block;
+	text-align:right;
+	color:#000000;
+}
+.cadastro table tr td b{
+	color:#FF0000;
+}
+.cadastro table tr td input.btncadastro{
+	padding:5px;
+	border:none;
+	background:#CCCCCC;
+}
+.cadastro table tr td input.btncadastro:hover{
+	background:#000000;
+	color:#CCCCCC;
+}
+
+
+/*VALIDAÇÃO DOS CAMPOS*/
+.cadastro table tr td label { display: block; margin-top: 10px; }
+.cadastro table tr td label.error { float: none; color: red; margin: 0 .5em 0 0; vertical-align: top; font-size: 10px }
